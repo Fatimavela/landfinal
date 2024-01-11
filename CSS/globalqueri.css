@@ -1,0 +1,208 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "PF Regal Display Pro-Regular";
+  src: url("../CRS/PFRegalDisplayPro-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque-Regular";
+  src: url("../CRS/10294.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ROBOTO";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap")
+ format("opentype");
+}
+
+@font-face {
+  font-family: "CYCLE";
+  src: url("https://fonts.googleapis.com/css2?family=News+Cycle&display=swap") format("opentype");
+}
+
+.seccion-web {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.seccion-web .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Añadida una media query para dispositivos con un ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+  .seccion-web .text-wrapper,
+  .seccion-web .text-wrapper-2,
+  .seccion-web .text-wrapper-3,
+  .seccion-web .text-wrapper-4,
+  .seccion-web .text-wrapper-5,
+  .seccion-web .text-wrapper-6,
+  .seccion-web .text-wrapper-7,
+  .seccion-web .text-wrapper-8,
+  .seccion-web .text-wrapper-9,
+  .seccion-web .text-wrapper-10,
+  .seccion-web .text-wrapper-11,
+  .seccion-web .text-wrapper-12,
+  .seccion-web .text-wrapper-13 {
+      font-size: 16px;
+  }
+  
+  .seccion-web .rectangle,
+  .seccion-web .rectangle-2,
+  .seccion-web .rectangle-3,
+  .seccion-web .rectangle-4,
+  .seccion-web .rectangle-5 {
+      width: 100%; /* Hace que los rectángulos ocupen el ancho completo */
+      height: auto; /* Ajusta la altura automáticamente */
+      transform: none; /* Elimina la rotación en dispositivos más pequeños */
+  }
+}
+.seccion-web {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px; /* Agregado: Ajusta el espacio interior según tus necesidades */
+}
+
+.seccion-web .div {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .seccion-web .rectangle-6,
+  .seccion-web .in-an-ultimate,
+  .seccion-web .overlap-6,
+  .seccion-web .mask-group-6,
+  .seccion-web .rectangle-7,
+  .seccion-web .rectangle-8,
+  .seccion-web .line,
+  .seccion-web .line-2,
+  .seccion-web .logo,
+  .seccion-web .group-4,
+  .seccion-web .ESP,
+  .seccion-web .text-wrapper-14,
+  .seccion-web .SING-UP,
+  .seccion-web .text-wrapper-15,
+  .seccion-web .text-wrapper-16,
+  .seccion-web .line-3,
+  .seccion-web .LOG-IN,
+  .seccion-web .text-wrapper-17,
+  .seccion-web .text-wrapper-18,
+  .seccion-web .real-estate,
+  .seccion-web .text-wrapper-19,
+  .seccion-web .rectangle-9,
+  .seccion-web .group-5,
+  .seccion-web .ENG,
+  .seccion-web .text-wrapper-20,
+  .seccion-web .rectangle-10,
+  .seccion-web .rectangle-11,
+  .seccion-web .rectangle-12,
+  .seccion-web .rectangle-13,
+  .seccion-web .mask-group-7,
+  .seccion-web .mask-group-8,
+  .seccion-web .rectangle-14,
+  .seccion-web .text-wrapper-21,
+  .seccion-web .text-wrapper-22,
+  .seccion-web .text-wrapper-23,
+  .seccion-web .group-6,
+  .seccion-web .text-wrapper-24,
+  .seccion-web .text-wrapper-25,
+  .seccion-web .text-wrapper-26,
+  .seccion-web .text-wrapper-27,
+  .seccion-web .text-wrapper-28,
+  .seccion-web .rectangle-15,
+  .seccion-web .group-7,
+  .seccion-web .text-wrapper-29 {
+      position: static; /* Cambiado: Ajusta según necesidades específicas */
+      width: auto; /* Ajustado: Permitir que los elementos fluyan según el contenido */
+      height: auto; /* Ajustado: Permitir que los elementos fluyan según el contenido */
+      top: auto; /* Cambiado: Ajusta según necesidades específicas */
+      left: auto; /* Cambiado: Ajusta según necesidades específicas */
+      transform: none; /* Eliminado: Ya que estamos desactivando la rotación en dispositivos más pequeños */
+  }
+
+  .seccion-web .rectangle-6,
+  .seccion-web .rectangle-9,
+  .seccion-web .rectangle-10,
+  .seccion-web .rectangle-15 {
+      width: 100%; /* Hace que los rectángulos ocupen el ancho completo */
+      height: auto; /* Ajusta la altura automáticamente */
+      border-radius: 0; /* Elimina el redondeo en dispositivos más pequeños */
+      border: none; /* Elimina el borde en dispositivos más pequeños */
+  }
+}
+/* Estilos base para todas las pantallas */
+.seccion-web .group-8 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1628px;
+  left: 587px;
+}
+
+/* Estilos para pantallas pequeñas (hasta 768px) */
+@media only screen and (max-width: 768px) {
+  .seccion-web .group-8 {
+      width: 30px;
+      height: 30px;
+      top: 1200px;
+      left: 400px;
+  }
+
+  /* Agrega más ajustes según sea necesario */
+}
+
+/* Estilos para pantallas medianas (769px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .seccion-web .group-8 {
+      width: 35px;
+      height: 35px;
+      top: 1400px;
+      left: 500px;
+  }
+
+  /* Agrega más ajustes según sea necesario */
+}
+
+/* Estilos para pantallas grandes (1025px en adelante) */
+@media only screen and (min-width: 1025px) {
+  .seccion-web .group-8 {
+      width: 40px;
+      height: 40px;
+      top: 1628px;
+      left: 587px;
+  }
+
+  /* Agrega más ajustes según sea necesario */
+}

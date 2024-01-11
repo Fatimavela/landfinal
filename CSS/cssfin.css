@@ -1,0 +1,1666 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+body {
+    margin: 0;
+    line-height: normal;
+  }
+
+  /*body {
+    overflow-x: hidden;
+  }*/
+  body{
+    width: auto;
+  }
+  :root {
+    /* fonts */
+    --font-Roboto: "roboto";
+    --font-News-Cycle: "Cycle";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-6xl: 25px;
+    --font-size-21xl: 40px;
+    --font-size-11xl: 30px;
+    --font-size-61xl: 80px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #7e7e7e;
+    --color-gray-200: #26282b;
+    --color-gray-300: rgba(255, 255, 255, 0.5);
+    --color-darkslategray: #464547;
+    --color-black: #000;
+    --color-goldenrod: #df991b;
+    --color-silver: #b4b7b7;
+  
+    /* Border radiuses */
+    --br-81xl: 100px;
+  }
+  
+
+
+
+
+
+.seccion-web {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .seccion-web .div {
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 1920px;
+    height: 5738px;
+    position: relative;
+  }
+  
+  .seccion-web .overlap {
+    position: absolute;
+    width: 413px;
+    height: 830px;
+    top: 2856px;
+    left: 1390px;
+  }
+  
+  .seccion-web .mask-group {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 0;
+    left: 1px;
+  }
+  
+  .seccion-web .img {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 423px;
+    left: 1px;
+  }
+  
+  .seccion-web .rectangle {
+    position: absolute;
+    width: 145px;
+    height: 413px;
+    top: 129px;
+    left: 134px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .rectangle-2 {
+    position: absolute;
+    width: 145px;
+    height: 413px;
+    top: 551px;
+    left: 134px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper {
+    position: absolute;
+    width: 323px;
+    height: 43px;
+    top: 336px;
+    left: 42px;
+    font-family: "cycle";
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-2 {
+    position: absolute;
+    width: 323px;
+    height: 27px;
+    top: 309px;
+    left: 42px;
+    font-family: "--font-Roboto", Helvetica;
+    font-weight: 400;
+    color: #464547;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-3 {
+    position: absolute;
+    width: 323px;
+    height: 43px;
+    top: 758px;
+    left: 42px;
+    font-family: "--font-News-Cycle", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-4 {
+    position: absolute;
+    width: 323px;
+    height: 27px;
+    top: 731px;
+    left: 42px;
+    font-family:var(--font-Roboto)
+    font-weight: 400;
+    color: #464547;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .overlap-group {
+    position: absolute;
+    width: 1804px;
+    height: 1965px;
+    top: 2856px;
+    left: 119px;
+  }
+  
+  .seccion-web .overlap-2 {
+    position: absolute;
+    width: 1257px;
+    height: 1965px;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccion-web .overlap-3 {
+    position: absolute;
+    width: 413px;
+    height: 830px;
+    top: 0;
+    left: 844px;
+  }
+  
+  .seccion-web .mask-group-2 {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 423px;
+    left: 3px;
+  }
+  
+  .seccion-web .mask-group-3 {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 0;
+    left: 3px;
+  }
+  
+  .seccion-web .text-wrapper-5 {
+    position: absolute;
+    width: 323px;
+    height: 43px;
+    top: 336px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: -3.2px;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-6 {
+    position: absolute;
+    width: 323px;
+    height: 43px;
+    top: 758px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: -0.4px;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .overlap-4 {
+    position: absolute;
+    width: 974px;
+    height: 1965px;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccion-web .mask-group-4 {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 423px;
+    left: 426px;
+  }
+  
+  .seccion-web .mask-group-5 {
+    position: absolute;
+    width: 407px;
+    height: 407px;
+    top: 0;
+    left: 425px;
+  }
+  
+  .seccion-web .text-wrapper-7 {
+    position: absolute;
+    width: 147px;
+    height: 32px;
+    top: 1846px;
+    left: 296px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .group {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    top: 1852px;
+    left: 226px;
+  }
+  
+  .seccion-web .rectangle-3 {
+    position: absolute;
+    width: 670px;
+    height: 1011px;
+    top: 954px;
+    left: 3px;
+  }
+  
+  .seccion-web .group-2 {
+    position: absolute;
+    width: 830px;
+    height: 830px;
+    top: 1045px;
+    left: 144px;
+  }
+  
+  .seccion-web .rectangle-4 {
+    position: absolute;
+    width: 145px;
+    height: 413px;
+    top: 129px;
+    left: 556px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-8 {
+    width: 323px;
+    height: 43px;
+    top: 336px;
+    left: 464px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-9 {
+    position: absolute;
+    width: 323px;
+    height: 27px;
+    top: 309px;
+    left: 464px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #464547;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-5 {
+    position: absolute;
+    width: 145px;
+    height: 413px;
+    top: 551px;
+    left: 556px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-10 {
+    position: absolute;
+    width: 369px;
+    height: 43px;
+    top: 758px;
+    left: 464px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .p {
+    position: absolute;
+    width: 323px;
+    height: 27px;
+    top: 731px;
+    left: 464px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #464547;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .art-curation {
+    position: absolute;
+    width: 646px;
+    height: 150px;
+    top: 1252px;
+    left: 1033px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 65px;
+  }
+  
+  .seccion-web .text-wrapper-11 {
+    position: absolute;
+    width: 490px;
+    height: 47px;
+    top: 1205px;
+    left: 1033px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-12 {
+    top: 1818px;
+    left: 1060px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "--font-Roboto", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .vector {
+    position: absolute;
+    width: 17px;
+    height: 32px;
+    top: 1819px;
+    left: 1032px;
+  }
+  
+  .seccion-web .overlap-wrapper {
+    position: absolute;
+    width: 793px;
+    height: 114px;
+    top: 1024px;
+    left: 1011px;
+  }
+  
+  .seccion-web .overlap-group-2 {
+    position: relative;
+    height: 114px;
+  }
+  
+  .seccion-web .vector-2 {
+    position: absolute;
+    width: 681px;
+    height: 2px;
+    top: 54px;
+    left: 112px;
+  }
+  
+  .seccion-web .overlap-group-wrapper {
+    position: absolute;
+    width: 113px;
+    height: 114px;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccion-web .subtract {
+    position: absolute;
+    width: 57px;
+    height: 114px;
+    top: 0;
+    left: 56px;
+  }
+  
+  .seccion-web .ellipse {
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    top: 1px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 56px;
+  }
+  
+  .seccion-web .group-3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 22px;
+  }
+  
+  .seccion-web .overlap-5 {
+    position: absolute;
+    width: 407px;
+    height: 80px;
+    top: 1795px;
+    left: 1157px;
+  }
+  
+  .seccion-web .text-wrapper-13 {
+    position: absolute;
+    width: 276px;
+    height: 32px;
+    top: 23px;
+    left: 65px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-6 {
+    position: absolute;
+    width: 80px;
+    height: 407px;
+    top: -163px;
+    left: 163px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .in-an-ultimate {
+    position: absolute;
+    width: 676px;
+    height: 121px;
+    top: 1472px;
+    left: 1033px;
+  }
+  
+  .seccion-web .overlap-6 {
+    position: absolute;
+    width: 1920px;
+    height: 1756px;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccion-web .mask-group-6 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccion-web .rectangle-7 {
+    position: absolute;
+    width: 1080px;
+    height: 1920px;
+    top: -420px;
+    left: 420px;
+    transform: rotate(-90deg);
+    mix-blend-mode: multiply;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(126, 126, 126) 100%);
+    opacity: 0.3;
+  }
+  
+  .seccion-web .rectangle-8 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: overlay;
+  }
+  
+  .seccion-web .line {
+    position: absolute;
+    width: 1920px;
+    height: 1px;
+    top: 122px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .seccion-web .line-2 {
+    position: absolute;
+    width: 1px;
+    height: 75px;
+    top: 26px;
+    left: 1798px;
+    background-image: url(../IMG/line-28-1clar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .seccion-web .logo {
+    top: 52px;
+    background-image: url(../IMG/group-291clar-1.png);
+    background-size: 100% 100%;
+    position: absolute;
+    width: 266px;
+    height: 24px;
+    left: 122px;
+  }
+  
+  .seccion-web .group-4 {
+    position: absolute;
+    width: 45px;
+    height: 33px;
+    top: 48px;
+    left: 1837px;
+  }
+  
+  .seccion-web .ESP {
+    top: 60px;
+    left: 1622px;
+    position: absolute;
+    width: 35px;
+    height: 19px;
+  }
+  
+  .seccion-web .text-wrapper-14 {
+    top: -1px;
+    left: 0;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #7e7e7e;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+    position: absolute;
+    width: 35px;
+    height: 19px;
+  }
+  
+  .seccion-web .SING-UP {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    top: 60px;
+    left: 1391px;
+  }
+  
+  .seccion-web .text-wrapper-15 {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    top: -1px;
+    left: 0;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-16 {
+    position: absolute;
+    width: 227px;
+    height: 32px;
+    top: 854px;
+    left: 246px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .line-3 {
+    position: absolute;
+    width: 2px;
+    height: 28px;
+    top: 56px;
+    left: 1384px;
+  }
+  
+  .seccion-web .LOG-IN {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    top: 60px;
+    left: 1250px;
+  }
+  
+  .seccion-web .text-wrapper-17 {
+    position: absolute;
+    width: 125px;
+    height: 19px;
+    top: -1px;
+    left: 0;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #7e7e7e;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-18 {
+    position: absolute;
+    width: 219px;
+    height: 19px;
+    top: 188px;
+    left: 1313px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .real-estate {
+    position: absolute;
+    width: 396px;
+    height: 60px;
+    top: 694px;
+    left: 109px;
+  }
+  
+  .seccion-web .text-wrapper-19 {
+    width: 490px;
+    top: 643px;
+    left: 122px;
+    color: #b3b6b6;
+    position: absolute;
+    height: 47px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-9 {
+    position: absolute;
+    width: 80px;
+    height: 407px;
+    top: 667px;
+    left: 286px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .group-5 {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    top: 860px;
+    left: 176px;
+  }
+  
+  .seccion-web .ENG {
+    top: 60px;
+    left: 1716px;
+    position: absolute;
+    width: 43px;
+    height: 19px;
+  }
+  
+  .seccion-web .text-wrapper-20 {
+    top: -1px;
+    left: 0;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+    position: absolute;
+    width: 43px;
+    height: 19px;
+  }
+
+  .seccion-web .text-wrapper-21,.seccion-web .text-wrapper-22, .seccion-web .text-wrapper-23 {position: absolute;
+    color: white;
+    z-index: 1;
+  }
+  
+  .seccion-web .rectangle-10 {
+    position: absolute;
+    width: 60px;
+    height: 529px;
+    top: -68px;
+    left: 1504px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .rectangle-11 {
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    top: 993px;
+    left: 897px;
+    background-color: #b3b6b6;
+  }
+  
+  .seccion-web .rectangle-12 {
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    top: 993px;
+    left: 991px;
+    background-color: #b3b6b6;
+  }
+  
+  .seccion-web .rectangle-13 {
+    position: absolute;
+    width: 31px;
+    height: 5px;
+    top: 993px;
+    left: 944px;
+    background-color: #d9d9d9;
+  }
+  
+  .seccion-web .mask-group-7 {
+    position: absolute;
+    width: 407px;
+    height: 550px;
+    top: 1204px;
+    left: 122px;
+  }
+  
+  .seccion-web .mask-group-8 {
+    position: absolute;
+    width: 407px;
+    height: 550px;
+    top: 1204px;
+    left: 545px;
+  }
+  
+  .seccion-web .rectangle-14 {
+    position: absolute;
+    width: 145px;
+    height: 408px;
+    top: 1479px;
+    left: 677px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-21 {
+    width: 296px;
+    height: 43px;
+    top: 1685px;
+    left: 587px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-22 {
+    width: 296px;
+    height: 43px;
+    top: 1683px;
+    left: 164px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-23 {
+    position: absolute;
+    width: 323px;
+    height: 47px;
+    top: 1636px;
+    left: 164px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .group-6 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 186px;
+    left: 1726px;
+  }
+  
+  .seccion-web .text-wrapper-24 {
+    width: 776px;
+    top: 1250px;
+    left: 1022px;
+    text-align: right;
+    position: absolute;
+    height: 99px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .text-wrapper-25 {
+    position: absolute;
+    width: 689px;
+    height: 47px;
+    top: 1203px;
+    left: 1109px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-26 {
+    width: 276px;
+    top: 1660px;
+    left: 1315px;
+    position: absolute;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web  :hover .text-wrapper-26 { background-color: white; color: black;
+    
+  }
+
+  .seccion-web .text-wrapper-27 {
+    top: 1660px;
+    left: 1136px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-28 {
+    top: 1660px;
+    left: 1717px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-15 {
+    position: absolute;
+    width: 80px;
+    height: 407px;
+    top: 1473px;
+    left: 1414px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .group-7 {
+    position: absolute;
+    width: 691px;
+    height: 32px;
+    top: 1661px;
+    left: 1108px;
+  }
+
+  .seccion-web .group-7 :hover { cursor: pointer;
+  }
+
+  .seccion-web .group-8 :hover { cursor: pointer;
+  }
+  
+  
+  .seccion-web .text-wrapper-29 {
+    width: 184px;
+    height: 33px;
+    top: 1643px;
+    left: 643px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #464547;
+    font-size: 30px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .group-8 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 1628px;
+    left: 587px;
+  }
+  
+  .seccion-web .mask-group-9 {
+    position: absolute;
+    width: 106px;
+    height: 550px;
+    top: 1204px;
+    left: 0;
+  }
+  
+  .seccion-web .vector-3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -11885px;
+    left: 12352px;
+  }
+  
+  .seccion-web .overlap-7 {
+    position: absolute;
+    width: 691px;
+    height: 304px;
+    top: 2149px;
+    left: 121px;
+  }
+  
+  .seccion-web .in-an-ultimate-2 {
+    position: absolute;
+    width: 676px;
+    height: 121px;
+    top: 0;
+    left: 1px;
+  }
+  
+  .seccion-web .text-wrapper-30 {
+    width: 256px;
+    top: 247px;
+    left: 228px;
+    position: absolute;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-31 {
+    top: 247px;
+    left: 28px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-32 {
+    top: 247px;
+    left: 609px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-16 {
+    position: absolute;
+    width: 80px;
+    height: 407px;
+    top: 61px;
+    left: 305px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .group-9 {
+    position: absolute;
+    width: 691px;
+    height: 32px;
+    top: 248px;
+    left: 0;
+  }
+  
+  .seccion-web .overlap-8 {
+    position: absolute;
+    width: 409px;
+    height: 550px;
+    top: 1940px;
+    left: 966px;
+  }
+  
+  .seccion-web .mask-group-10 {
+    position: absolute;
+    width: 407px;
+    height: 550px;
+    top: 0;
+    left: 2px;
+  }
+  
+  .seccion-web .rectangle-17 {
+    position: absolute;
+    width: 143px;
+    height: 409px;
+    top: 274px;
+    left: 133px;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-33 {
+    width: 296px;
+    height: 43px;
+    top: 479px;
+    left: 44px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-34 {
+    width: 323px;
+    height: 47px;
+    top: 432px;
+    left: 44px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #464547;
+    font-size: 30px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .overlap-9 {
+    position: absolute;
+    width: 106px;
+    height: 550px;
+    top: 1940px;
+    left: 1814px;
+    background-image: url(../IMG/mask-grouplate-3.png);
+    background-size: 100% 100%;
+  }
+  
+  .seccion-web .text-wrapper-35 {
+    position: absolute;
+    width: 64px;
+    height: 43px;
+    top: 481px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-36 {
+    position: absolute;
+    width: 64px;
+    height: 47px;
+    top: 434px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .overlap-10 {
+    position: absolute;
+    width: 407px;
+    height: 550px;
+    top: 1940px;
+    left: 1391px;
+    background-image: url(..//IMG/mask-group-1flores.png);
+    background-size: 100% 100%;
+  }
+  
+  .seccion-web .text-wrapper-37 {
+    width: 296px;
+    height: 43px;
+    top: 481px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-38 {
+    width: 323px;
+    height: 47px;
+    top: 434px;
+    left: 42px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-39 {
+    width: 759px;
+    top: 1986px;
+    left: 122px;
+    position: absolute;
+    height: 99px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .text-wrapper-40 {
+    position: absolute;
+    width: 490px;
+    height: 47px;
+    top: 1939px;
+    left: 122px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-41 {
+    position: absolute;
+    width: 830px;
+    height: 99px;
+    top: 2693px;
+    left: 545px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .text-wrapper-42 {
+    width: 554px;
+    top: 2646px;
+    left: 683px;
+    color: #df991b;
+    text-align: center;
+    position: absolute;
+    height: 47px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .overlap-11 {
+    position: absolute;
+    width: 1920px;
+    height: 793px;
+    top: 4945px;
+    left: 0;
+  }
+  
+  .seccion-web .rectangle-18 {
+    position: absolute;
+    width: 1920px;
+    height: 647px;
+    top: 146px;
+    left: 0;
+    background-color: #000000;
+  }
+  
+  .seccion-web .rectangle-19 {
+    position: absolute;
+    width: 1676px;
+    height: 312px;
+    top: 0;
+    left: 122px;
+    background-color: #26282b;
+  }
+  
+  .seccion-web .logo-2 {
+    top: 488px;
+    position: absolute;
+    width: 266px;
+    height: 24px;
+    left: 122px;
+  }
+  
+  .seccion-web .suites-cities-villas {
+    position: absolute;
+    width: 77px;
+    top: 478px;
+    left: 686px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .houses-apartaments {
+    position: absolute;
+    width: 268px;
+    top: 478px;
+    left: 1109px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .span {
+    color: #ffffff;
+  }
+  
+  .seccion-web .text-wrapper-43 {
+    color: #b3b6b6;
+  }
+  
+  .seccion-web .text-wrapper-44 {
+    position: absolute;
+    width: 345px;
+    top: 613px;
+    left: 1453px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-45 {
+    position: absolute;
+    width: 439px;
+    height: 77px;
+    top: 701px;
+    left: 740px;
+    font-family: "Brandon Grotesque-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .become-a-new-uniq {
+    position: absolute;
+    width: 359px;
+    height: 67px;
+    top: 572px;
+    left: 127px;
+  }
+  
+  .seccion-web .text-wrapper-46 {
+    position: absolute;
+    width: 407px;
+    height: 99px;
+    top: 518px;
+    left: 1391px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 45px;
+  }
+  
+  .seccion-web .text-wrapper-47 {
+    position: absolute;
+    width: 407px;
+    height: 47px;
+    top: 487px;
+    left: 1391px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #b3b6b6;
+    font-size: 30px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .line-4 {
+    position: absolute;
+    width: 1676px;
+    height: 2px;
+    top: 690px;
+    left: 122px;
+  }
+  
+  .seccion-web .unlock-the-exclusive {
+    position: absolute;
+    width: 548px;
+    height: 137px;
+    top: 119px;
+    left: 263px;
+    font-family: "PF Regal Display Pro-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 65px;
+  }
+  
+  .seccion-web .text-wrapper-48 {
+    position: absolute;
+    width: 490px;
+    height: 47px;
+    top: 68px;
+    left: 263px;
+    font-family: "PF Regal Display Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-20 {
+    position: absolute;
+    width: 60px;
+    height: 689px;
+    top: -227px;
+    left: 1282px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #7e7e7e;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-49 {
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    top: 200px;
+    left: 1373px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .rectangle-21 {
+    position: absolute;
+    width: 80px;
+    height: 407px;
+    top: 13px;
+    left: 1413px;
+    border-radius: 100px;
+    border: 1px solid;
+    border-color: #df991b;
+    transform: rotate(-90deg);
+  }
+  
+  .seccion-web .text-wrapper-50 {
+    position: absolute;
+    width: 219px;
+    height: 19px;
+    top: 107px;
+    left: 1021px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #7e7e7e;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-51 {
+    position: absolute;
+    width: 96px;
+    height: 21px;
+    top: 48px;
+    left: 1021px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 100px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .text-wrapper-52 {
+    top: 4674px;
+    left: 1716px;
+    position: absolute;
+    width: 64px;
+    height: 32px;
+    font-family: "Brandon Grotesque-Regular", Helvetica;
+    font-weight: 400;
+    color: #df991b;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
+  
+  .seccion-web .group-10 {
+    position: absolute;
+    width: 17px;
+    height: 32px;
+    top: 4675px;
+    left: 1781px;
+  }
+  
+  .seccion-web .group-11 {
+    position: fixed;
+    width: 21px;
+    height: 327px;
+    top: 506px;
+    left: 50px;
+  }
+  
+  .seccion-web .group-12 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 196px;
+    left: 2px;
+  }
+  
+  .seccion-web .vector-4 {
+    position: absolute;
+    width: 17px;
+    height: 14px;
+    top: 226px;
+    left: 1px;
+  }
+  
+  .seccion-web .group-13 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 284px;
+    left: 3px;
+  }
+  
+  .seccion-web .vector-5 {
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    top: 257px;
+    left: 6px;
+  }
+  
+  .seccion-web .vector-6 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 312px;
+    left: 2px;
+  }
+  
+  .seccion-web .line-5 {
+    position: absolute;
+    width: 2px;
+    height: 75px;
+    top: 100px;
+    left: 9px;
+  }
+  
+  .seccion-web .text-wrapper-53 {
+    position: absolute;
+    width: 88px;
+    height: 19px;
+    top: 35px;
+    left: -35px;
+    transform: rotate(90deg);
+    font-family: "Brandon Grotesque-Black", Helvetica;
+    font-weight: 900;
+    color: #7e7e7e;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 45px;
+    white-space: nowrap;
+  }
